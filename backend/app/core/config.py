@@ -11,14 +11,22 @@ class Settings(BaseSettings):
     DATABASE_URL: str = "sqlite:///./finsight.db"
     MODEL_DIR: str = "./app/ml/artifacts"
     UPLOAD_DIR: str = "./uploads"
-    BACKEND_CORS_ORIGINS: str = "http://localhost:3000,http://localhost:5173"
+
+    # Hardcoded defaults — env var can still override
+    BACKEND_CORS_ORIGINS: str = (
+        "http://localhost:3000,"
+        "http://localhost:5173,"
+        "https://finsight-frontend-laxo.onrender.com"
+    )
 
     @property
     def cors_origins(self) -> List[str]:
-        return [o.strip() for o in self.BACKEND_CORS_ORIGINS.split(",")]
+        return [o.strip() for o in self.BACKEND_CORS_ORIGINS.split(",") if o.strip()]
 
     class Config:
         env_file = ".env"
+        env_file_encoding = "utf-8"
+        extra = "ignore"
 
 
 settings = Settings()
