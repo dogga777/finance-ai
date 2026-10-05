@@ -20,9 +20,9 @@
 
 | Service | URL | Status |
 |---------|-----|--------|
-| **🖥️ Frontend (Main App)** | [finsight-frontend-laxo.onrender.com](https://finsight-frontend-laxo.onrender.com) | 🟢 Live |
-| **⚙️ Backend API** | [finsight-backend-ljuh.onrender.com](https://finsight-backend-ljuh.onrender.com) | 🟢 Live |
-| **📚 API Documentation** | [finsight-backend-ljuh.onrender.com/docs](https://finsight-backend-ljuh.onrender.com/docs) | 🟢 Live |
+| **🖥️ Frontend (Main App)** | [finsight-frontend-laxo.onrender.com](https://finsight-frontned.onrender.com/) | 🟢 Live |
+| **⚙️ Backend API** | [finsight-backend-ljuh.onrender.com](https://finsight-backend-na64.onrender.com/) | 🟢 Live |
+| **📚 API Documentation** | [finsight-backend-ljuh.onrender.com/docs](https://finsight-backend-na64.onrender.com/docs) | 🟢 Live |
 
 > ⚠️ **Note:** Free tier on Render spins down after 15 minutes of inactivity. The first request takes 30–60 seconds to wake up.
 
