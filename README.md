@@ -34,7 +34,7 @@
 
 **FinSight AI** is an intelligent financial analytics platform that transforms raw financial statements into actionable, explainable business intelligence. It combines automated ratio analysis, machine learning-based cash flow forecasting, anomaly detection, explainable AI, and natural-language recommendations into one unified web application.
 
-Built as a final-year B.Tech project demonstrating the practical application of AI in financial decision-making.
+Built as a final-year MCA project demonstrating the practical application of AI in financial decision-making.
 
 ---
 
