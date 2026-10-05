@@ -20,14 +20,16 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",
         "http://localhost:5173",
-        "https://finsight-frontend-laxo.onrender.com",
-        "https://finsight-backend-ljuh.onrender.com",
+        "https://finsight-frontned.onrender.com",   # ← your real frontend URL
+        "https://finsight-frontend-laxo.onrender.com",  # old URL (keep for safety)
+        "*",   # wildcard - allows any origin
     ],
+    allow_origin_regex=r"https://.*\.onrender\.com",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
+    expose_headers=["*"],
 )
-
 
 @app.on_event("startup")
 def on_startup():
