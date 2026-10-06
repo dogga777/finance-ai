@@ -277,9 +277,6 @@ Project Title: AI-Based Financial Statement Analysis and Cash Flow Prediction Sy
 MIT License — free to use for educational purposes.
 
 
-# 👤 Author
-
-ChandraMouli-->[25102D020020]
 GitHub : @dogga777  [https://github.com/dogga777]
 Live Demo: finsight-frontend-laxo.onrender.com
 
